@@ -1,0 +1,28 @@
+{
+  "name": "practice1",
+  "version": "1.0.0",
+  "description": "cosmas practice1 backend",
+  "homepage": "https://github.com/cosmasehike/practice1#readme",
+  "bugs": {
+    "url": "https://github.com/cosmasehike/practice1/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cosmasehike/practice1.git"
+  },
+  "license": "ISC",
+  "author": "cosmas",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node backend/src/index.js",
+    "dev": "nodemon backend/src/index.js"
+  },
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1",
+    "mongoose": "^9.2.1",
+    "nodemon": "^3.1.13"
+  }
+}
